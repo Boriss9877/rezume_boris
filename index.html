@@ -10,14 +10,70 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
     <link rel="stylesheet" href="css/styles.css">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
 
     <!--main background-->
-    <div class="main_bacground">
+    <div class="main_bacground row-fluid">
 
+        <div class="col-md-2"></div>
+        <!--sidebar-->
+        <aside class="sidebar col-md-3">
+
+            <img src="img/img.jpg" alt="my photo">
+
+            <!--sidebar contacts-->
+            <div class="sidebar_contacts">
+
+                <h3 class="sidebar_h3">Contacts</h3>
+
+                <div>
+
+                    <span class="sidebar_contacts_type">C:</span>
+                    <a class="sidebar_contacts_link" href="tel:+380961391458">+38 096 139 1458</a>
+
+                </div>
+
+                <div>
+
+                    <span class="sidebar_contacts_type">E:</span>
+                    <a class="sidebar_contacts_link" href="mailto:boriss9877@gmail.com">boriss9877@gmail.com</a>
+
+                </div>
+
+            </div>
+
+            <!--sidebar tech skills-->
+            <div class="sidebar_tech_skills">
+
+                <h3 class="sidebar_h3">Tech Skills</h3>
+
+                <ul class="skills">
+                    <li class="skills_dot"><spap class="skills_text"><abbr title="HyperText Markup Language" class="abbr">HTML5</abbr></spap></li>
+                    <li class="skills_dot"><spap class="skills_text"><abbr title="Cascading Style Sheets" class="abbr">CSS3</abbr></spap></li>
+                    <li class="skills_dot"><spap class="skills_text">Python</spap></li>
+                    <li class="skills_dot"><spap class="skills_text"><abbr title="Structured Query Language" class="abbr">SQL</abbr></spap></li>
+                </ul>
+
+            </div>
+
+
+        </aside>
+        
+        <div class="col-md-1"></div>
         <!--main content-->
-        <div class="main_content">
+        <div class="main_content col-md-4">
 
             <!--it s me-->
             <div class="me">
@@ -88,48 +144,7 @@
 
         </div>
 
-        <!--sidebar-->
-        <aside class="sidebar">
 
-            <img src="img/img.jpg" alt="my photo">
-
-            <!--sidebar contacts-->
-            <div class="sidebar_contacts">
-
-                <h3 class="sidebar_h3">Contacts</h3>
-
-                <div>
-
-                    <span class="sidebar_contacts_type">C:</span>
-                    <a class="sidebar_contacts_link" href="tel:+380961391458">+38 096 139 1458</a>
-
-                </div>
-
-                <div>
-
-                    <span class="sidebar_contacts_type">E:</span>
-                    <a class="sidebar_contacts_link" href="mailto:boriss9877@gmail.com">boriss9877@gmail.com</a>
-
-                </div>
-
-            </div>
-
-            <!--sidebar tech skills-->
-            <div class="sidebar_tech_skills">
-
-                <h3 class="sidebar_h3">Tech Skills</h3>
-
-                <ul class="skills">
-                    <li class="skills_dot"><spap class="skills_text"><abbr title="HyperText Markup Language" class="abbr">HTML5</abbr></spap></li>
-                    <li class="skills_dot"><spap class="skills_text"><abbr title="Cascading Style Sheets" class="abbr">CSS3</abbr></spap></li>
-                    <li class="skills_dot"><spap class="skills_text">Python</spap></li>
-                    <li class="skills_dot"><spap class="skills_text"><abbr title="Structured Query Language" class="abbr">SQL</abbr></spap></li>
-                </ul>
-
-            </div>
-
-
-        </aside>
 
 
     </div>
