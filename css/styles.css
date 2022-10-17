@@ -196,7 +196,8 @@ footer{
 @media (max-width: 320px){
   .sidebar_footer_h3{float: none; margin-bottom: 10px;}
   .contacts_item{float: none; left: auto; margin: 0px;}
-  footer{position: absolute; bottom: 0px; height: 15vh;}
+  footer{position: absolute; bottom: 0px; height: 15vh; padding-top: 1px;}
+  .col-xs-12{float: none;}
 
 }
 
