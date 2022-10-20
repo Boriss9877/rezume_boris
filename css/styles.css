@@ -194,7 +194,7 @@ footer{
 
 .sidebar_footer_h3{
   float: left;
-  margin: 10% 0px;
+  margin: 10% 0px 10% 20px;
   
 }
 
@@ -208,19 +208,15 @@ footer{
 
 @media (max-width: 320px){
   .sidebar_footer_h3{float: none; margin-bottom: 10px;}
-  .contacts_item{float: none; left: auto; margin: 0px;}
-  footer{position: absolute; bottom: 0px; height: 10vh;}
-  .col-xs-12{float: none;}
+  .contacts_item{float: none; left: auto; margin-left: 20px; margin-top: 0px;}
+  footer{position: absolute; bottom: 0px; height: 15vh;}
+  /* .col-xs-12{float: none;} */
 
 }
 
-@media (min-width: 416px){
+@media (min-width: 426px){
 footer{display: none;}
 }
-
-@media (max-width: 416px){
-  .sidebar_contacts{display: none;}
-  }
 
 
 @media (min-width: 426px) and (max-width: 991px){
@@ -230,9 +226,10 @@ footer{display: none;}
   #sidebar_contacts{background-color: #1e2939;}
   .sidebar_contacts_type{margin: 0;}
   .main_content{margin: 0px 5%; width: 90%;}
-
-
+  .sidebar img{width: 50%; float: left;}
+  .sitebar_all_info{float: left; width: 45%; margin-left:5% ;}
 }
+
 
 @media (max-width: 425px){
   #main{margin: auto;}
@@ -242,5 +239,8 @@ footer{display: none;}
   .sidebar{width: 100%; height: auto;}
   #type{display: none;}
   .main_content{margin: 0px 5%; width: 90%;}
-  
+  .sidebar img{width: 50%; float: left;}
+  .sitebar_all_info{float: left; width: 45%; margin-left:5% ;}
+  .sidebar_contacts{display: none;}
+  .sidebar_tech_skills{margin-top: 25%;}
 }
